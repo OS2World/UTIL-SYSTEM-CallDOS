@@ -1,0 +1,17 @@
+# IBM Developer's Workframe/2 Make File Creation run at 12:44:24 on 12/16/92
+
+# Make File Creation run in directory:
+#   D:\DATA\C\CALLDOS;
+
+# Assumed INCLUDE environment variable path:
+#   F:\DEV\IBMC\INCLUDE;
+#   F:\DEV\IBMC\IBMCLASS;
+#   F:\TOOLKT20\C\OS2H;
+#   F:\TOOLKT20\ASM\OS2INC;
+#   C:\IBMCOM\INCLUDE;
+
+
+CALLCHIL.OBJ:  CALLCHIL.C  \
+#  {$(INCLUDE);}os2.h  \
+#  {$(INCLUDE);}stdio.h  \
+   CALLDOS.MAK
